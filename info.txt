@@ -1,0 +1,15 @@
+
+//// git ///////
+
+1. git init 
+2. git add .
+3. git commit -m(which baranch) "Message"
+4. git status
+
+/////// heroku ////////
+1. heroku create
+2. git remote add heroku https://git.heroku.com/hidden-anchorage-19401.git
+3. git push heroku master
+4. heroku open (Lunch the site)
+5. heroku logs (for checking logs)
+6. 
