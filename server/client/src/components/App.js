@@ -10,7 +10,7 @@ const Contact = () => <h2>contact</h2>;
 const Surveys = () => <h2>Surveys Dashboard</h2>;
 
 class App extends Component {
-  componentDidMount = () => {
+  componentDidMount () {
     this.props.fetchUser();
   }
   

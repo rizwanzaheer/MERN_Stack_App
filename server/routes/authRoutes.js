@@ -14,8 +14,8 @@ module.exports = app => {
     "/auth/google/callback",
     passport.authenticate("google"),
     (req, res) => {
-      console.log('surveys');
-      res.redirect('/surveys');
+      console.log("surveys");
+      res.redirect("/surveys");
     }
   );
 
